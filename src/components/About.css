@@ -1,0 +1,38 @@
+.about-page {
+    background-color: #f9f9f9;
+    padding: 50px;
+    color: #34495E;
+    margin-top: 30px; /* Add this line to create space at the top */
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-header h1 {
+    font-size: 3rem;
+    color: #2C3E50;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+  
+  .about-content p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    color: #2C3E50;
+  }
+  
+  .about-content strong {
+    color: #1ABC9C;
+  }
+  

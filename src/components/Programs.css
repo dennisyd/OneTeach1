@@ -1,0 +1,78 @@
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.card.selected {
+  border-left: 5px solid #1ABC9C;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Left-align the bullet points and paragraphs in the program description */
+.program-description {
+  text-align: left; /* Align bullets and paragraphs to the left */
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #34495E;
+  animation: slideDown 0.3s ease;
+}
+
+.program-description ul {
+  margin-left: 20px; /* Add some indentation for bullets */
+  list-style-type: disc;
+}
+
+.program-description p {
+  margin-bottom: 10px;
+}
+
+@keyframes slideDown {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+  to {
+    max-height: 200px;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-grid {
+    grid-template-columns: 1fr; /* Single column layout for mobile */
+  }
+
+  .card h3 {
+    font-size: 1.3rem;
+  }
+
+  .program-description {
+    font-size: 0.9rem;
+  }
+}

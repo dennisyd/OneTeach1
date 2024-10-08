@@ -1,0 +1,41 @@
+.hero {
+  background: linear-gradient(135deg, #2C3E50, #34495E);
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero h2.ai-for-all {
+  font-size: 4.5rem; /* 3 times larger than the Empowering text */
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: gold;
+}
+
+.hero h1 {
+  font-size: 1.5rem; /* Empowering text */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: goldenrod;
+  font-weight: bold;
+}
+
+.btn-cta {
+  background-color: #E74C3C;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cta:hover {
+  background-color: #C0392B;
+}

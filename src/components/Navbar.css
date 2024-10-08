@@ -1,0 +1,40 @@
+.navbar {
+  background-color: #2C3E50;
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Keeping the title (h1) where it is */
+.navbar h1 {
+  color: white;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Adjusting the menu items position */
+.navbar ul {
+  display: inline-block;
+  list-style: none;
+  position: relative; /* Allows shifting the ul */
+  left: -50px; /* Moves the entire menu items 25px to the left */
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  color: #1ABC9C;
+}

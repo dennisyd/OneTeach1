@@ -1,0 +1,14 @@
+.cta-section {
+    background-color: #1ABC9C;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .cta-section .btn-cta {
+    font-size: 1.5rem;
+  }
+  
