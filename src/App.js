@@ -7,6 +7,7 @@ import Programs from './components/Programs';
 import CallToAction from './components/CallToAction';
 import About from './components/About';
 import ContactForm from './components/ContactForm'; // Import the ContactForm
+import ScrollToTop from './components/ScrollToTop'; // Import the ScrollToTop component
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop /> {/* Ensure ScrollToTop is placed inside Router */}
       <div className="App">
         <Navbar />
         <Routes>

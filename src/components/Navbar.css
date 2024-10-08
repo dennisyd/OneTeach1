@@ -1,32 +1,40 @@
 .navbar {
   background-color: #2C3E50;
   padding: 1rem;
-  text-align: center;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
+  display: flex;
+  justify-content: center; /* Center the contents of the navbar */
 }
 
-/* Keeping the title (h1) where it is */
-.navbar h1 {
-  color: white;
-  display: inline-block;
+/* New wrapper for the content */
+.navbar-content {
+  margin-left: -100px; /* Move the content 100px to the left, adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; /* Keep the content stretched */
+}
+
+.logo-container {
   margin-left: 10px;
-  margin-right: 10px;
 }
 
-/* Adjusting the menu items position */
+.large-logo {
+  width: 200px;
+  height: auto;
+}
+
 .navbar ul {
-  display: inline-block;
   list-style: none;
-  position: relative; /* Allows shifting the ul */
-  left: -50px; /* Moves the entire menu items 25px to the left */
+  display: flex;
+  margin-right: 100px;
 }
 
 .navbar ul li {
-  display: inline-block;
-  margin-right: 20px;
+  margin: 0 15px;
 }
 
 .navbar ul li a {

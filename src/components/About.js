@@ -9,10 +9,11 @@ function About() {
       </header>
       <section className="about-content">
         <p>
-          At <strong>OneTeach1</strong>, our mission is clear: <em>to empower underserved students with AI skills, critical thinking, and problem-solving abilities</em>, preparing them to become the leaders and innovators of a rapidly evolving, technology-driven world.
+          At <strong>1TeachOne</strong>, we are committed to bridging the digital divide by empowering underserved students with essential AI skills and fostering critical thinking and problem-solving abilities. 
+          We believe AI literacy is vital for success in an increasingly technology-driven world. By equipping students with the knowledge to harness the power of AI, we prepare them to be active participants and innovators, shaping their future.
         </p>
         <p>
-          We believe that every student, regardless of their socioeconomic background, deserves access to the tools and knowledge needed to thrive in the 21st century. Our programs focus on integrating AI into education, helping students not just to understand the fundamentals of AI, but also to apply those skills to real-world problems.
+          Our mission is to integrate AI into education, nurturing both digital literacy and the competencies required for academic and career success.
         </p>
         <h2>Our Vision</h2>
         <p>
